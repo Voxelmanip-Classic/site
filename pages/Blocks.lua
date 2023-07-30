@@ -103,6 +103,13 @@ local i = 0
 for id, block in ipairs(blocks) do
 	if i % 11 == 0 then l:write('<tr>') end
 
+	local url = block:gsub(' ', '_')
+	if block:endswith('Wool') and block ~= "Rainbow Wool" then
+		url = 'Wool'
+	elseif block == "Double Stone Slab" then
+		url = 'Stone_Slab'
+	end
+
 	l:write([[
 		<td>
 			<a href="/wiki/%s">
@@ -110,7 +117,7 @@ for id, block in ipairs(blocks) do
 				<div class="center lbl">%s</div>
 			</a>
 		</td>
-	]], block:gsub(' ', '_'), id, block)
+	]], url, id, block)
 
 	i = i + 1
 
