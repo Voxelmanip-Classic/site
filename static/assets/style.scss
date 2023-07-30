@@ -1,0 +1,179 @@
+$grid: #38c016;
+$link: #ff0;
+$bg: #0F0F0F;
+$bg_box: #191919;
+$bg_box2: #060606;
+
+body {
+	background-color: $bg;
+	color: white;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 11.5pt;
+	background: url('/assets/coolgreen2.png');
+	margin: 0;
+}
+
+a {
+	color: $link;
+	text-decoration: none;
+
+	&:hover { text-decoration: underline; }
+	&:active { color: darken($link, 17%); }
+}
+
+p {
+	line-height: 1.5;
+}
+
+ul li, ol li {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+h1 { margin: 0; font-size: 1.9em; border-bottom: 1px solid #adadad; }
+h2 { font-size: 1.50em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.67em; }
+
+
+/// Layout \\\
+
+.container {
+	display: flex;
+	align-items: flex-start;
+	max-width: 1440px;
+	margin: 30px auto;
+
+	.sidebar {
+		padding: 5px;
+		width: 160px;
+		background: rgba(16, 48, 2, 0.65);
+		margin-right: 15px;
+		border: 2px solid $grid;
+
+		.sidelinks {
+			margin: 0;
+			padding-left: 15px;
+			padding-top: 5px;
+
+			li {
+				list-style-type: none;
+			}
+		}
+
+		.sideheader {
+			margin-top: 30px;
+			padding-bottom: 5px;
+			padding-left: 20px;
+			border-bottom: 1px solid white;
+			font-weight: bold;
+		}
+	}
+
+	.main {
+		flex: 1;
+		background: rgba(8, 8, 8, 0.75);
+		padding: 10px;
+		border: 2px solid $grid;
+		overflow: auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	/* 'no mobile' */
+	.container { flex-direction: column-reverse; }
+}
+
+img {
+	max-width: 100%;
+}
+
+.thumb {
+	width: 640px;
+}
+
+pre {
+	color: #f8f8f2;
+	background-color: #141414;
+	border: 1px solid #444;
+	padding: 10px;
+	margin: 10px;
+	white-space: pre-wrap;
+	font-family: 'Fira Code', Monaco, Consolas, monospace;
+	line-height: 1.5;
+	tab-size: 4;
+}
+
+/// Infobox \\\
+
+.infobox {
+	background: rgba(8, 8, 8, 0.788);
+	border: 2px solid $grid;
+	text-align: center;
+	min-width: 300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 25px;
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+
+		.heading {
+			background: rgba(16, 48, 2, 0.65);
+			font-size: 12pt;
+			font-weight: bold;
+		}
+
+		tr {
+			border-bottom: 2px solid $grid;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		td, th {
+			padding: 10px;
+		}
+	}
+
+	@media screen and (min-width: 700px) {
+		margin-left: 25px;
+		margin-right: 0;
+		float: right;
+	}
+}
+
+/// Block list \\\
+
+.blocks {
+	border-spacing: 0px;
+	border-collapse: collapse;
+
+	a {
+		color: white;
+		text-decoration: none;
+	}
+
+	td {
+		border: 1px solid #38c016;
+		padding: 3px;
+	}
+
+	img, .lbl {
+		width: 100px;
+	}
+
+	img {
+		height: 100px;
+	}
+
+	.lbl {
+		height: 40px;
+		vertical-align: middle;
+		text-align: center;
+	}
+}

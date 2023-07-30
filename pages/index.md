@@ -1,0 +1,26 @@
+{{ thumbnail{
+	src = "https://voxelmanip.se/media/projects/voxelmanip_classic.png"
+} }}
+
+**Voxelmanip Classic** (formerly Minecraftn't Classic) is a Minetest server that intends to recreate the simple creative freebuild gameplay that existed in Minecraft Classic.
+
+It implements the basic building blocks found in Minecraft Classic, the blocks found in the CustomBlocks CPE, and additional custom blocks on top of that. But still tries to keep the minimal Minecraft Classic aesthetic.
+
+The world is currently 256x256 in size, but may expand in the future. Rollback functionality is enabled, and any attempts at griefing will be rolled back. Join today and build something.
+
+You can find it on the serverlist as "The Voxelmanip Classic Server", or connect directly to **`voxelmanip.se:30001`**. Basic maths skills recommended.
+
+---
+
+This is the Voxelmanip Classic Wiki, the site that documents the server and its history. The ability to register and edit the Wiki yourself is currently pending.
+
+## Features
+- [Blocks](Blocks)
+- [Message Blocks](Message_Blocks)
+- [Verification Question](Verification_Question)
+
+## Lore
+- [History](History)
+
+## Technical details
+- [Source Code](Source_Code)
