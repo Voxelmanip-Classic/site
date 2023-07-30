@@ -5,4 +5,8 @@ return {
 	repo = "https://github.com/Voxelmanip-Classic/site",
 
 	page_base = "wiki/",
+
+	hidden = {
+		["Special:PageIndex"] = true
+	}
 }
