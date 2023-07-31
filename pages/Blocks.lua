@@ -104,10 +104,14 @@ for id, block in ipairs(blocks) do
 	if i % 11 == 0 then l:write('<tr>') end
 
 	local url = block:gsub(' ', '_')
-	if block:endswith('Wool') and block ~= "Rainbow Wool" then
+	if block:endswith('Wool') and block ~= 'Rainbow Wool' then
 		url = 'Wool'
-	elseif block == "Double Stone Slab" then
+	elseif block == 'Double Stone Slab' then
 		url = 'Stone_Slab'
+	elseif block == 'Still Water' then
+		url = 'Water'
+	elseif block == 'Still Lava' then
+		url = 'Lava'
 	end
 
 	l:write([[
