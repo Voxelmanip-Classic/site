@@ -1,5 +1,5 @@
 {{ thumbnail{
-	src = "https://voxelmanip.se/media/projects/voxelmanip_classic.png",
+	src = "https://voxelmanip.se/media/projects/voxelmanip_classic.webp",
 	alt = "Screenshot of Voxelmanip Classic, showing the character from Voxel Dreams."
 } }}
 

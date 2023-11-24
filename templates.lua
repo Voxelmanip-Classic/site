@@ -2,7 +2,7 @@ function infobox_node(data)
 	local l = Buffer:new()
 	l:write('<div class="infobox clearfix"><table>')
 	l:write('<tr><td class="heading" colspan="2">%s</td></tr>', data.name)
-	l:write('<tr><td colspan=2><img src="/images/blocks/%s.png" style="margin:-11px;height:100px"></td></tr>', data.order)
+	l:write('<tr><td colspan=2><img src="/images/blocks/%s.webp" style="margin:-11px;height:100px"></td></tr>', data.order)
 	l:write('<tr><th style="width:50%%">Order/ID</th><td>%s</td></tr>', data.order)
 	if data.origin then
 		l:write('<tr><th>Origin</th><td>%s</td></tr>', data.origin)

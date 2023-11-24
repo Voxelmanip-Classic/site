@@ -9,7 +9,7 @@ local function wool_table(wools, id_start)
 
 		l:write([[
 			<td>
-				<img src="/images/blocks/%s.png">
+				<img src="/images/blocks/%s.webp">
 				<div class="center lbl">%s</div>
 			</td>
 		]], i, block)

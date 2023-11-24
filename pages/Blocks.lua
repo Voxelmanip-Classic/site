@@ -117,7 +117,7 @@ for id, block in ipairs(blocks) do
 	l:write([[
 		<td>
 			<a href="/wiki/%s">
-				<img src="/images/blocks/%s.png">
+				<img src="/images/blocks/%s.webp">
 				<div class="center lbl">%s</div>
 			</a>
 		</td>
