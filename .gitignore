@@ -1,2 +1,4 @@
-.output/
-build.sh
+.bundle
+.jekyll-cache
+_site
+Gemfile.lock

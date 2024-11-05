@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="infobox">
+	<table>
+		<tr>
+			<td class="heading" colspan="2">{{ page.title }}</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<img src="/images/blocks/{{ page.order }}.webp" style="margin:-11px;height:100px">
+			</td>
+		</tr>
+		<tr>
+			<th style="width:50%">Order/ID</th>
+			<td>{{ page.order }}</td>
+		</tr>
+		{% if page.origin %}
+			<tr>
+				<th>Origin</th>
+				<td>{{ page.origin }}</td>
+			</tr>
+		{% endif %}
+	</table>
+</div>
+
+{{ content }}

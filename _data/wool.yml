@@ -1,0 +1,33 @@
+classic:
+  start_id: 21
+  colors:
+    - Red
+    - Orange
+    - Yellow
+    - Lime
+    - Green
+    - Teal
+    - Aqua
+    - Cyan
+    - Blue
+    - Indigo
+    - Violet
+    - Magenta
+    - Pink
+    - Black
+    - Gray
+    - White
+
+cpe:
+  start_id: 55
+  colors:
+    - Light Pink
+    - Forest Green
+    - Brown
+    - Deep Blue
+    - Turquoise
+
+custom:
+  start_id: 93
+  colors:
+    - Very Black

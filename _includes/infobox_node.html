@@ -1,0 +1,22 @@
+<div class="infobox">
+	<table>
+		<tr>
+			<td class="heading" colspan="2">{{ include.title }}</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<img src="/images/blocks/{{ include.order }}.webp" style="margin:-11px;height:100px">
+			</td>
+		</tr>
+		<tr>
+			<th style="width:50%">Order/ID</th>
+			<td>{{ include.order }}</td>
+		</tr>
+		{% if include.origin %}
+			<tr>
+				<th>Origin</th>
+				<td>{{ include.origin }}</td>
+			</tr>
+		{% endif %}
+	</table>
+</div>

@@ -1,0 +1,44 @@
+title: Voxelmanip Classic
+description: A Luanti server that intends to recreate the simple creative freebuild gameplay that existed in Minecraft Classic.
+url: https://classic.voxelmanip.se
+
+baseurl: /
+
+repo: https://github.com/Voxelmanip-Classic/site
+
+lang: en_GB
+
+exclude:
+  - README.md
+
+redirect_from:
+  json: false
+
+sass:
+  style: compressed
+  sourcemap: never
+
+collections:
+  blocks:
+    permalink: /wiki/:path
+    output: true
+  pages:
+    permalink: /wiki/:path
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "blocks"
+    values:
+      layout: "block"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap

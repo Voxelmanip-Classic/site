@@ -1,0 +1,15 @@
+{% assign i = include.id_start %}
+<table class="blocks"><tr>
+	{%- for block in include.wools -%}
+		{% if forloop.index0 == 11 %}<tr>{% endif %}
+
+		<td>
+			<img src="/images/blocks/{{ i }}.webp" alt="Block {{ block }}">
+			<div class="center lbl">{{ block }}</div>
+		</td>
+
+		{% assign i = i | plus: 1 %}
+
+		{% if forloop.index0 == 10 %}</tr>{% endif %}
+	{%- endfor -%}
+</tr></table>
