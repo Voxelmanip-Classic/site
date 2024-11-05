@@ -10,7 +10,7 @@ The Voxelmanip Classic server has had a long history. This is a selection of imp
 ## 2022
 - **Mar 20, 2022** - The initial iteration of the Minecraftn't Classic server (it was mostly an anarchy server).
 
-- **Mar 27, 2022** - The Minecraftn't Classic server turns into a "[psychedelic minetest engine stress test](https://cdn.discordapp.com/attachments/369122544273588226/957634383072858152/unknown.png)".
+- **Mar 27, 2022** - The Minecraftn't Classic server turns into a "[psychedelic luanti engine stress test](https://cdn.discordapp.com/attachments/369122544273588226/957634383072858152/unknown.png)".
 
 - **June 5, 2022** - The current iteration of the server, with moderation and a permanent map.
 

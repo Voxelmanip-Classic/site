@@ -4,7 +4,7 @@ title: ROllerozxa
 
 ROllerozxa is the owner, administrator, developer and soused herring enjoyer of Voxelmanip Classic.
 
-Most of the time when he is online he has probably forgotten that Minetest is even running in the background, though he sometimes is active and builds things.
+Most of the time when he is online he has probably forgotten that Luanti is even running in the background, though he sometimes is active and builds things.
 
 
 

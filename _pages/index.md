@@ -8,7 +8,7 @@ redirect_from: /
 	src="https://voxelmanip.se/media/projects/voxelmanip_classic.webp"
 	alt="Screenshot of Voxelmanip Classic, showing the character from Voxel Dreams." %}
 
-**Voxelmanip Classic** (formerly Minecraftn't Classic) is a Minetest server that intends to recreate the simple creative freebuild gameplay that existed in Minecraft Classic.
+**Voxelmanip Classic** (formerly Minecraftn't Classic) is a Luanti server that intends to recreate the simple creative freebuild gameplay that existed in Minecraft Classic.
 
 It implements the basic building blocks found in Minecraft Classic, the blocks found in the CustomBlocks CPE, and additional custom blocks on top of that. But still tries to keep the minimal Minecraft Classic aesthetic.
 
