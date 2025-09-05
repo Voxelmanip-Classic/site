@@ -20,19 +20,16 @@
 
 			<ul class="sidelinks">
 				<li><a href="/wiki/">Main page</a></li>
-				<li><a target="_blank" href="{{ site.repo }}/commits/master">Recent changes</a></li>
-				<li><a href="/wiki/Page_Index">Page Index</a></li>
-			</ul>
-
-			<div class="sideheader">Important pages</div>
-			<ul class="sidelinks">
 				<li><a href="Blocks">Blocks</a></li>
+				<li><a href="/wiki/Page_Index">Page Index</a></li>
+				<li><a target="_blank" href="https://voxelmanip.se/donate/">Donate</a></li>
 			</ul>
 
-			<div class="sideheader">Page actions</div>
+			<div class="sideheader">Actions</div>
 			<ul class="sidelinks">
-				<li><a target="_blank" href="{{ site.repo }}/edit/master/{{ page.path }}">Edit</a></li>
-				<li><a target="_blank" href="{{ site.repo }}/commits/master/{{ page.path }}">History</a></li>
+				<li><a target="_blank" href="{{ site.repo }}/commits/master">Recent changes</a></li>
+				<li><a target="_blank" href="{{ site.repo }}/edit/master/{{ page.path }}">Edit page</a></li>
+				<li><a target="_blank" href="{{ site.repo }}/commits/master/{{ page.path }}">Page history</a></li>
 			</ul>
 		</div>
 		<div class="main"><h1>{% if page.title == "index" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}</h1>{{ content }}</div>
