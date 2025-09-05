@@ -14,7 +14,11 @@ It implements the basic building blocks found in Minecraft Classic, the blocks f
 
 The world is currently 512x512 in size, but may expand in the future. Rollback functionality is enabled, and any attempts at griefing will be rolled back. Join today and build something.
 
-You can find it on the serverlist as "The Voxelmanip Classic Server", or connect directly to **`voxelmanip.se:30001`**. Basic maths skills recommended.
+You can find it on the serverlist as "The Voxelmanip Classic Server", or connect directly to **`server.voxelmanip.se:30001`**. Basic maths skills recommended.
+
+> **Important announcement:**
+>
+> The address for the Voxelmanip Classic server has changed from `voxelmanip.se` to `server.voxelmanip.se`. While you will be able to connect from both addresses right now, this will likely change sometime in the future. Please update your serverlist favourites!
 
 ---
 
